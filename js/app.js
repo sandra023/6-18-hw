@@ -42,13 +42,13 @@ const c = 57;
 const d = 16;
 const e = 'Kevin';
 
-a < b;
-c > d;
-'Name'==='Name';
-a + b === c; 
-a * a === d; 
-e === 'Kevin';
-48 == '48';
+console.log(a < b);
+console.log(c > d);
+console.log('Name'==='Name');
+console.log(a + b === c); 
+console.log(a * a === d); 
+console.log(e === 'Kevin');
+console.log(48 == '48');
 
 //Part 3
 //Question 1
