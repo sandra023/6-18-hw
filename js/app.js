@@ -45,10 +45,8 @@ const e = 'Kevin';
 a < b;
 c > d;
 'Name'==='Name';
-a + b == c; //not sure if it would be === since before running the equatio
-			//both side are not technically idential 
-a * a == d; //not sure if it would be === since before running the equatio
-			//both side are not technically idential 
+a + b === c; 
+a * a === d; 
 e === 'Kevin';
 48 == '48';
 
@@ -86,7 +84,7 @@ console.log(letters); //runs the loop
 //They can both be used to iterate over and over again
 
 //Question 2
-for (i = 0; i <= 100; i++){
+for (let i = 0; i <= 100; i++){
 	console.log(i);
 }
 
@@ -98,12 +96,12 @@ for (i = 0; i <= 100; i++){
 //executes but before the condition is evaluated
 
 //Question 4
-for (i = 999; i > 0; i--){
+for (let i = 999; i > 0; i--){
 	console.log(i);
 }
 
 //Question 5
-for (i = 1; i < 10; i++){
+for (let i = 1; i < 10; i++){
 	console.log(`The value of i is: ${i} of 10`);
 }
 
